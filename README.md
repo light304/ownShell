@@ -6,6 +6,7 @@ My goal is to make a fully opensource and customizable terminal that has low ove
 
 To run, simply download the ownShell.exe file, and run.
 To edit / inspect code, download the ownShell.c file, and to compile (I have been using gcc - as it is the base use in VScode), run this command in the terminal:
+
 gcc ownShell.c -o ownShell.exe -mwindows -ldwmapi -luxtheme
 
 Then run your new ownShell.exe file!
